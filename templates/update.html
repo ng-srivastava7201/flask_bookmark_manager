@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block head %}
+Bookmark Manager
+{% endblock %}
+{% block body %}
+<div class='content'>
+  <h1 style='text-align:centre'>Update</h1>
+  <form action='/update/{{item.id}}' method='POST'>
+    <input type='text' id='link' name='link'>
+    <input type='text' id='name' name='name'>
+    <button type='submit'>Submit</button>
+  </form>
+</div>
+{% enblock %}
