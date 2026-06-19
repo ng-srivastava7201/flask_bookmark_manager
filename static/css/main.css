@@ -1,0 +1,11 @@
+body, html{
+  background-color: cornsilk;
+}
+table, th, td{
+  border: 1px solid black;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
